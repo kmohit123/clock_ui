@@ -15,6 +15,7 @@ function calMe(){
        console.log(one.text);
 
       //  chinge time of small box
+
        let stortime = document.getElementsByClassName("timeparam");
        stortime [0].innerText = wake.text; 
        stortime [1].innerText = lunch.text;
@@ -22,6 +23,7 @@ function calMe(){
        stortime [3].innerText = one.text;
 
       // change text depanding at dropdown box
+
        let test = document.getElementById("text");
        let img = document.querySelector("#image");
        
@@ -91,72 +93,7 @@ function myFunction() {
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
     document.getElementById("ampm").innerHTML = AMPM;
-
-    // chinge text dipending on live clock
-    let img = document.querySelector("#image");
-    let timetext = document.querySelector("#livetime");
-    let test = document.querySelector("#text");
-    
-    if(Hour>=6 && 12>Hour)
-    {
-      let timetext = document.querySelector("#livetime");
-      timetext.innerHTML = "GRAB SOME HEALTHY BREAKFAST!!!";
-      
-      let img = document.querySelector("#image");
-      img.scr = './image/Goodmorning_image.png';
-
-      let test = document.querySelector("#text");
-      test.innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
-    }
-    
-    if(Hour>=12 && 16>Hour)
-    {
-      let timetext = document.querySelector("#livetime");
-      timetext.innerHTML = "LET'S HAVE SOME LUNCH !!";
-      
-      let img = document.querySelector("#image");
-      img.scr = './image/GoodAfternoon_image.png';
-
-      let test = document.querySelector("#text");
-      test.innerHTML = "GOOD AFTERNOON !! TAKE SOME SLEEP";
-
-    }
-    if(Hour>=16 && 21>Hour)
-    {
-      let timetext = document.querySelector("#livetime");
-      timetext.innerHTML = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
-      
-      let img = document.querySelector("#image");
-      img.scr = './image/lunch_image.png';
-
-      let test = document.querySelector("#text");
-      test.innerHTML = "GOOD EVENING !!";
-    }
-
-    if(Hour>=21 && 00>Hour)
-    {
-      let timetext = document.querySelector("#livetime");
-      timetext.innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
-      
-      let img = document.querySelector("#image");
-      img.scr = './image/Night_image.png';
-
-      let test = document.querySelector("#text");
-      test.innerHTML = "GOOD NIGHT !!";
-  
-    }
-
-    if(Hour>=00 && 6>Hour)
-    {
-      let timetext = document.querySelector("#livetime");
-      timetext.innerHTML = "CLOSE YOUR EYES AND GO TO SLEEP";
-      
-      let img = document.querySelector("#image");
-      img.scr = './image/Night_image.png';
-
-      let test = document.querySelector("#text");
-      test.innerHTML = "GOOD NIGHT !!";
-    }
 }
+
 
 
