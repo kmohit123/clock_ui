@@ -345,7 +345,6 @@ body{
         position: absolute;
         width: 90%;
         top: 193px;
-        background-color: aqua;
         left: 6%;
      }
      .item8{
@@ -353,7 +352,6 @@ body{
         width: 75%;
         top: 208px;
         left: 14%;
-        background-color: #FC5EFF;
      }
      .item9{
         width: 101%;
