@@ -96,29 +96,29 @@ function myFunction() {
 
     // chinge text on live clock
 
-  let live = document.getElementById("livetimeText");
+   let live = document.getElementById("livetimeText");
   
-  let hours = new Date().getHours();
- if (hours >= 0o6 && hours < 11) 
- {
-  live.innerText = "GRAB SOME HEALTHY BREAKFAST!!!";
- }
- else if (hours >= 11 && hours < 15) 
- {
-  live.innerText = "LET'S HAVE SOME LUNCH !!";
- }
- else if (hours >= 15 && hours < 21) 
- {
-  live.innerText = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
- }
- else if (hours >= 21 || hours < 0o6) 
- {
-  live.innerText = "CLOSE YOUR EYES AND GO TO SLEEP";
- }
- else 
- {
-  live.innerText = "CLOSE YOUR EYES AND GO TO SLEEP..!!";
- }   
+   let hours = new Date().getHours();
+   if (hours >= 0o6 && hours < 11) 
+    {
+      live.innerText = "GRAB SOME HEALTHY BREAKFAST!!!";
+    }
+   else if (hours >= 11 && hours < 15) 
+    {
+      live.innerText = "LET'S HAVE SOME LUNCH !!";
+    }
+   else if (hours >= 15 && hours < 21) 
+    {
+      live.innerText = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
+    }
+   else if (hours >= 21 || hours < 0o6) 
+    {
+      live.innerText = "CLOSE YOUR EYES AND GO TO SLEEP";
+    }
+   else 
+    {
+      live.innerText = "CLOSE YOUR EYES AND GO TO SLEEP..!!";
+    }   
 }
 
 
