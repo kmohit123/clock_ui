@@ -113,21 +113,18 @@ body{
 }
 .setalarm{
     padding: 10px;
-    background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF,#F1A7C5);
     height: 50px;
     font-size: 25px;
     border: none;
     color: white;
 }
-
-button:hover span{
+h1:hover span{
     display: none
   }
   
-  button:hover:before {
+  h1:hover:before {
     content: "Party time !"
   }
-
 /* Right grid */
 
 .rightgrid{
