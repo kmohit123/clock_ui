@@ -143,7 +143,7 @@ h1:hover span{
     position: relative;
     top: 49px;
     padding: 15px;
-
+    width: 509px;
 }
 .hours{
     width: 70px;
@@ -216,6 +216,7 @@ h1:hover span{
     grid-column: 1/2;
     background-color: beige;
     padding: 10px 0px;
+    width: 537px;
 }
 .item10 img{
     grid-column: 1/2;
